@@ -1,0 +1,72 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0ZXIlMjBib3R0bGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"); 
+    background-size: cover; 
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+
+.container{
+    background: rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    margin: auto;
+    border: 5px solid #52796f;
+    margin-top: 10%;
+    box-shadow: 10px 10px #cad2c5;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Satisfy', serif;
+    color: #2f3e46;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+#increment-btn {
+    background: #489fb5;
+}
+
+#increment-btn:hover {
+    color: #231942;
+    background: #82c0cc;
+    box-shadow: 0 8px 16px 0 #16697a;
+    transform: translateY(1px);
+}
+
+#save-btn {
+    background: #16697a;
+}
+
+#save-btn:hover {
+    color: #231942;
+    background: #82c0cc;
+    box-shadow: 0 8px 16px 0 #489fb5;
+    transform: translateY(4px);
+}
+
+#save-el {
+    font-weight: bold;
+    color: #2f3e46;
+}
+
+
